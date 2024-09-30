@@ -1,0 +1,252 @@
+@charset "utf-8";
+@import url("style.css");
+
+body{
+    background-color: #ddffdd;
+    height: 2000px;
+    overflow-x: hidden;
+}
+
+
+
+h1{
+    padding-left: 570px;
+}
+
+h1:first-letter{
+    font-size: 110%
+}
+
+nav{
+    background-color: #fff;
+		border-radius: 15px;
+}
+
+
+li{
+    list-style: none;
+    padding-left: 190px;
+    
+}
+
+ul{
+    display: flex;
+    padding: 10px 0px 10px 0px;
+}
+
+
+
+a:hover{
+    position: relative;
+    left: 2px;
+    bottom: 2px;
+    background-color: blue;
+    color: white;
+}
+
+
+main img{
+    width: 100vw;
+}
+
+h2{
+    padding-left: 140px;
+}
+
+table{
+    border-collapse: collapse;
+    margin: auto;
+    
+}
+
+td{
+    border: 1px solid black;
+}
+
+th{
+    border: 1px solid black;
+}
+
+
+.fee{
+    width: 60px;
+    background-color: skyblue;
+}
+
+.time{
+    width: 400px;
+}
+
+div img{
+    width: 300px;
+    height: 300px;
+}
+
+#contea1{
+    display: flex;
+}
+
+#contea2{
+    display: flex;
+}
+
+
+#idou{
+    padding-left: 130px;
+}
+
+#idou img{
+    border-radius: 23px;
+    width: 500px;
+    height: 500px;
+}
+
+#idou2{
+    padding-top: 150px;
+    padding-left: 10px;
+    font-size: 150%;
+}
+
+#idou3{
+    padding-top: 150px;
+    padding-left: 230px;
+    font-size: 150%;
+}
+
+#idou4 img{
+    border-radius: 15px;
+    width: 500px;
+    height: 500px;
+}
+
+
+
+table caption{
+    padding-top: 30px;
+}
+
+#size{
+    background-color: #a5dce6;
+    
+}
+td{
+    width: 180px;
+}
+
+
+#bas{
+    width: 60px;
+}
+
+#yakei{
+    padding-left: 500px;
+}
+
+
+#yakei2{
+    padding-left: 280px;
+}
+
+
+#yakei2 img{
+width: 700px;
+height: 300px;
+border-radius: 20px;
+}
+
+@media screen and (max-width:425px) {
+    
+
+    body{
+        margin: 0px;
+    }
+
+
+    #contea2:nth-child(even){
+        flex-direction: column-reverse;
+    }
+
+    #contea{
+        padding-left: 100px;
+    }
+    #contea1{
+        display: block;
+    }
+
+    #contea2{
+        flex-direction: column-reverse;
+    }
+
+    #idou{
+        padding-left: 0px;
+    }
+
+    ul{
+        display: block;
+        background-color: white;
+    }
+
+
+    h1{
+        width: 500px;
+        padding-left: 120px;
+    }
+
+    h2{
+        padding-left: 10px;
+    }
+
+    #idou img{
+        width: 350px;
+        height: 300px;
+        border-radius: 15px;
+    }
+
+    #idou2{
+        padding: 0px 0px 0px 5px;
+    }
+
+
+    #idou2 p{
+        font-size: 19px;
+    }
+
+
+
+    #idou3{
+        padding: 0px 0px 0px 5px;
+    }
+
+    #idou3 p{
+        font-size: 19px;
+    }
+    #idou4{
+        padding-left: 0px;
+    }
+
+
+
+    #idou4 img{
+        width: 350px;
+        height: 300px;
+    }
+
+
+
+
+
+    #yakei{
+        padding-left: 30px;
+    }
+
+
+    #yakei2{
+        padding: 0px;
+        padding-left: 0px;
+    }
+
+    #yakei2 img{
+        width: 350px;
+        height: 300px;
+    }
+}

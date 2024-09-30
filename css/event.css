@@ -1,0 +1,113 @@
+@charset "UTF-8";
+body{
+    background-color: #ddffdd;
+	overflow-x: hidden;
+}
+img{
+    width: 100%;
+    height: 50%;
+}
+h1{
+    text-align: center;
+}
+#e ul{
+    display: flex;
+}
+#e ul li{
+    list-style: none;
+}
+nav ul li{
+    list-style: none;
+    padding-left: 190px;
+}
+nav ul{
+   display: flex;
+   background-color: white;
+   padding: 10px;
+}
+#main ul li{
+    padding-top: 30px;
+    padding-left: 100px;
+    padding-bottom: 70px;
+    padding-right: 30px;
+}
+#main p{
+    padding-bottom: 10px;
+    margin-top: 100px;
+    font-size: 40px;
+    margin-left: 30px;
+}
+h2{
+    font-size: 30px;
+    text-align: center;
+}
+footer{
+    background-color: #dd8d14;
+    text-align: center;
+	padding: 40px;
+}
+h2{
+	position: relative;
+	padding:10px 20px;
+	font-size:20px;
+	color:#fdfdfde8;
+	width: calc(100% - 80px);
+	box-sizing: border-box;
+	margin-left: 40px;
+	background: #ee09cf96;
+	box-shadow:0 1px 3px rgba(0,0,0,0.25);
+}
+h2:before,
+h2:after{
+	content: "";
+	position: absolute;
+	top:10px;
+	height: 0;
+	width: 0;
+	border: 25px solid #ee09cf96;
+	z-index:-1;
+}
+h2:before{
+	right: -40px;
+	border-right-color: transparent;
+}
+h2:after{
+	left: -40px;
+	border-left-color: transparent;
+}
+h2 span{
+	display:block;
+}
+h2 span:before,
+h2 span:after{
+	content: "";
+	position: absolute;
+	top: 100%;
+	height: 0;
+	width: 0;
+	border: 5px solid transparent;
+	border-top: 5px solid #ee09cf96;
+}
+h2 span:before{
+	right: 0;
+	border-left: 5px solid #ee09cf96;
+}
+h2 span:after{
+	left: 0;
+	border-right: 5px solid #ee09cf96;
+}
+@media screen and (max-width:425px) {
+
+
+	#e ul{
+		display: block;
+	}
+
+	nav ul{
+		display: block;
+		background-color: white;
+	}
+
+
+
+}
